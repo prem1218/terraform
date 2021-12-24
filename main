@@ -4,9 +4,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-096e189c66c11b2b5"
+  ami           = "ami-061ac2e015473fbe2"
   instance_type = "t2.micro"
-
+  subnet_id     =subnet-0282538cecd113ecf
   tags = {
     Name = "HelloWorld"
   }
