@@ -6,6 +6,6 @@ resource "aws_instance" "vm" {
   subnet_id     = "subnet-0cdddedbf69e12f61"
   instance_type = "t2.micro"
   tags = {
-    Name = "my-first-tf-node_prem"
+    Name = "my-first-tf-node-prem"
   }
 }
